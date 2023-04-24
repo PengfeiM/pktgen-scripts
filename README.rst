@@ -10,6 +10,14 @@ Helper include files
 This directory contains two helper shell files, that can be "included"
 by shell source'ing.  Namely "functions.sh" and "parameters.sh".
 
+New Scripts
+-----------
+I add a script to help you print pps results, named [print_result.sh](./print_results.sh). 
+To use it just::
+
+    Usage: ./print_results.sh $THREADS
+        $THREADS: how many threads you used in the pktgen test before
+
 Common parameters
 -----------------
 The parameters.sh file support easy and consistant parameter parsing
